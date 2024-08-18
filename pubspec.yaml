@@ -1,0 +1,61 @@
+name: layout_demo_flutter
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    background_color: "#0175C2"
+    theme_color: "#0175C2"
+  windows:
+    generate: true
+    icon_size: 48
+  macos:
+    generate: true
+  # https://github.com/fluttercommunity/flutter_launcher_icons/issues/144
+  adaptive_icon_background: "assets/icon/icon-background.png"
+  adaptive_icon_foreground: "assets/icon/icon-foreground.png"
+
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+  # https://unsplash.com/photos/EN2PucB2yhA
+  - assets/ronnie-mayo-361348-unsplash.jpg
+  # https://unsplash.com/photos/pmH_Y4Qetrk
+  - assets/stefan-stefancik-105587-unsplash.jpg
+  # https://unsplash.com/photos/5ditmO9_ae0
+  - assets/simon-fitall-530083-unsplash.jpg
+  # https://unsplash.com/photos/3MNzGlQM7qs
+  - assets/anton-repponen-99530-unsplash.jpg
+  # https://unsplash.com/photos/CPjkWSD0RM0
+  - assets/kevin-cochran-524957-unsplash.jpg
+  # https://unsplash.com/photos/T0XLKgpyT_c
+  - assets/samsommer-72299-unsplash.jpg
+  # https://unsplash.com/photos/twukN12EN7c
+  - assets/simon-matzinger-320332-unsplash.jpg
+  # https://unsplash.com/photos/8BH_M-53CyA
+  - assets/meng-ji-102492-unsplash.jpg
+  # https://unsplash.com/photos/tvOvBq90bM0
+  - assets/brady-bellini-212790-unsplash.jpg
+
+  uses-material-design: true
